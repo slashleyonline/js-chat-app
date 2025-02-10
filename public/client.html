@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket Chat</title>
+    <link rel="stylesheet" href = style.css />
+    <script src = "/node_modules/socket.io/client-dist/socket.io.js"></script>
+    <script defer src = "client.js"></script>
+</head>
+<body>
+
+    <h1>WebSocket Chat</h1>
+    <div class = "card" >
+        <div class="chatbox">
+            <ul class="message-list">
+
+            </ul>
+        </div>
+        <input id = "chatmessage" type = "text" placeholder= "message">
+
+        <button onclick = "clearInput()">Send</button>
+    </div>
+
+
+
+</body>
+</html>

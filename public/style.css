@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: black;
+    color: white;
+}
+.card {
+    margin:80px;
+    width: 300px;
+}
+.chatbox {
+    border: 3px solid white;
+    border-radius: 10px;
+    height:220px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.message-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
